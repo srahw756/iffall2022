@@ -1,0 +1,26 @@
+p,h1,h2,audio{text-align: center;}
+
+p{ font-family: 'Courier New', monospace;}
+
+p,h1,h2{ color:rgb(206, 255, 218);}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h1{
+    font-size: 60px;
+    line-height: 110%;
+}
+
+h2{line-height: 60%;}
+
+
+  body {
+    background-image: url('background4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(21, 33, 34);
+  }
