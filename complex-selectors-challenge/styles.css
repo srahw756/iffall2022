@@ -1,0 +1,74 @@
+/*idk why but the tv shows won't turn black -- fix during school year */
+
+
+
+header{
+    margin-bottom: 3rem;  
+}
+
+p{
+    line-height: 1.6;
+}
+
+.shows h1{
+    font-size: 2.5rem;
+    border-top: 1px solid black;
+
+}
+
+h2{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h1,h2{
+    font-weight: lighter;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
+
+li.selected{
+    color: black !Important;
+    font-weight: bolder;
+}
+
+div{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+div:last-child{
+    font-style: italic;
+    font-size: 0.8rem;
+
+}
+
+.see-all{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#game-of-thrones .seasons:after {
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+  }
+
+img{
+    width: 100%;
+}
+
+li:nth-child() { background-color: blue; }
+
+.cast li{
+    width:25%;
+}
+
+#game-of-thrones .seasons li:last-child:after  {
+    content: "*";
+  }
