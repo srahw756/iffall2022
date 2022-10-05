@@ -1,0 +1,161 @@
+/*general*/
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size:40px;
+}
+
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+
+section > div{
+    padding: 39px 0;
+}
+
+/*header*/
+.contents{
+    width: 975px;
+    margin:auto;
+}
+
+header{
+    text-align: center;
+    background-image: url(headerphoto.jpeg);
+}
+
+header .contents{
+    padding: 152px 0 186px 0;
+}
+
+header h1{
+    color:white;
+}
+
+header h2{
+    line-height: 1.1;
+    font-size: 30px;
+    color: white;
+}
+
+/*section 1*/
+#section1{
+    background: #76d8ff;
+}
+
+img.section1photo{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+#section1 h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*section 2*/
+
+.section,
+.section2 .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item{
+    width:50%;
+    display: flex;
+    margin-bottom:24px;
+}
+.grid-item img{
+    width: 200px;
+    height: 150px;
+}
+
+.grid-item .caption{
+    margin-left: 12px;
+    width: 250px;
+}
+
+.grid-item .caption p{
+    margin: 5px;
+}
+.section2{
+    background:rgb(27, 114, 201);
+}
+.center h2{
+    text-align: center;
+    color:white;
+}
+
+.center p, h4{
+    color:white;
+}
+
+.section2{
+    padding-left: 400px;
+    padding-right: 400px;
+    margin: auto;
+}
+
+.center{
+    width: 1000px;
+    margin: auto;
+}
+.content{
+    padding-top:40px;
+}
+
+/*section 3*/
+.center-text{
+    padding-top: 2px;
+    padding-bottom:40px;
+}
+.center-text .content {
+    text-align: center;
+    width: 707px;
+}
+.center-text .content p{
+    font-size: 26px;
+}
+.center-text{
+   margin-left: 530px;
+   margin-right: 530px;
+
+}
+
+.center-text p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.section3 h2{
+    text-align: center;
+}
+
+.section3{
+    background: #76d8ff;
+}
+
+
+
+footer {
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    padding-left: 420px;
+}
