@@ -1,0 +1,176 @@
+body{
+    background: #FFF3F3;
+}
+
+.text{
+    margin: auto;
+    width: 60%;
+}
+
+.title{
+    padding-top: 30px;
+    margin: auto;
+    width: 60%;
+    padding-left: 18%;
+}
+.title-style{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.strawbs{
+    width: 130px;  
+    height: auto;  
+}
+
+.photo1{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+}
+  
+.ingredients{
+    border: 5px dotted #C70000;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.right-align{
+    text-align: right;
+    width:50%;
+    margin:auto;
+}
+
+.center{
+    width:60%;
+    margin:auto;
+    padding: 40px;
+}
+
+.extra{
+    border: 5px dotted #C70000;
+    margin: 30px;
+    padding: 30px;
+}
+
+.description{
+    border: 5px dotted #C70000;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.steps{
+    border: 5px dotted #C70000;
+    margin: 30px;
+    padding:45px;
+}
+
+
+
+.stars{
+    width: 120px;  
+    height: auto; 
+}
+
+p,ol,li{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #C70000;
+}
+
+li{
+    margin-left: 80px;
+}
+
+b{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #C70000;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.1em;  
+    color: #C70000;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 0.12em;
+    color: #C70000;
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #C70000;
+    margin-left: 40px;
+
+}
+
+.ingredients-one, .ingredients-two{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #C70000;
+}
+
+
+.title-style,.review-info{
+    display: inline-block;
+}
+
+.column {
+    float: left;
+    width: 45%;  
+    margin-left: 2px;
+    padding: 15px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  hr{
+      border-top: 5px dotted #C70000;
+  }
+
+  .footer{
+      padding-top: 30px;
+      border-top: 2px #C70000;
+      font-size: 15px;
+      text-align: right;
+  }
+
+  .cake-steps,.buttercream-steps,.assembling-steps{
+      padding-bottom:30px;
+  }
+  
