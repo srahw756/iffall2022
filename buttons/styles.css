@@ -1,0 +1,569 @@
+/*general styling*/
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:visited{
+    color: black;
+}
+a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+body{
+    position:relative;
+    z-index: -20;
+}
+/* FLEX GRID */
+.grid{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    z-index: -10;
+}
+
+section{
+    width:250px;
+    height:250px;  
+    border: 1px solid rgba(0, 0, 0, 0.173);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -3;
+}
+section .button{
+    /* display:block; */
+    width: 100px;
+    height:30px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span:not(.icon){
+    display:inline-block;
+}
+
+/*coca-cola*/
+
+#coca-cola{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+    background-color: red;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#coca-cola:hover{
+    background-image: linear-gradient(red, rgb(255, 157, 37));
+    color: white;
+    box-shadow: 0px 0px 20px rgb(255, 136, 32);
+}
+
+/*apple*/
+
+#apple{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.3s;
+}
+
+#apple:hover {
+    transform: skew(-20deg);
+}
+
+/*ibm*/
+#ibm{
+    background-color: #0f63fe7b;
+    width: 100px;
+    height: 50px; 
+    border-color: #0f62fe;
+    color: rgb(255, 255, 255);
+    background-image: -webkit-linear-gradient(45deg, #0f62fe 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0f62fe 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#ibm:hover{
+    background-position: 0;
+}
+
+/*lyft*/
+
+#lyft{
+    background-color: #fe0fea;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px; 
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size:25px;
+    transition: 0.3s;
+
+}
+
+#lyft:hover{
+    animation: bounce 1s;
+    box-shadow: 0px 0px 20px #fe0fea;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+}
+
+/*cartoon network*/
+
+#cartoon-network{
+    border-color: #000000;
+    border-radius: 1px;
+    border: 2px;
+    color: #000000;
+    position: relative;
+   top: -20px;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+  }
+
+  #cartoon-network:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 80px;
+    background: #000000;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+
+  #cartoon-network:hover {
+    color: #fff;
+  }
+
+  #cartoon-network:hover:after {
+    width: 150%;
+  }
+
+/*nike*/
+
+#nike{
+    font-family: roboto;
+    font-weight: 700;
+    padding-top: 5px;
+    border: 2px solid #FF6600;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: color 0.3s;
+    font-size: 20px;
+    color: #FF6600;
+    transform: skew(-10deg);
+}
+
+#nike:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #FF6600;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-out;
+  }
+
+  #nike:hover {
+    color: white;
+  }
+
+  #nike:hover:before {
+    transform: scaleX(1);
+  }
+
+  /*nerf*/
+
+#nerf{
+    font-family: roboto;
+    font-weight: 700;
+    border-radius: 50px;
+    padding-top: 5px;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: color 0.3s;
+    font-size: 20px;
+    color: red;
+    background-color: #ffeb13;
+    box-shadow: 0px 0px 20px #ffeb13;
+
+}
+
+/*nerf*/
+
+#nerf:before {
+    content: "";
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to right,red, #ffeb13);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-out;
+  }
+
+  #nerf:hover {
+    color: #ffeb13;
+  }
+  
+  #nerf:hover:before {
+    transform: scaleX(1);
+  }
+
+  /*exploding kittens*/
+
+  #exploding-kittens{
+    transition: all .2s ease-in-out; 
+    font-family: 'Fredoka One', cursive;
+    color: rgb(215, 0, 0);
+  }
+
+  #exploding-kittens:hover{
+    transform: scale(3); 
+  }
+
+
+  .npr1{
+    width:120px;
+    margin-top: -10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.npr1:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+  /*tesla*/
+  
+  .tesla1{
+    display: inline-block;
+    width:   100px;
+    height:  100px;
+    margin-top: -29px;
+    transition: transform .7s ease-in-out;
+  }
+
+  .tesla1:hover{
+    transform: rotate(360deg);
+  }
+
+
+  /*fitbit*/
+  .fitbit1{
+    height:  100px;
+    margin-top: -29px;
+    transition: all .2s ease-in-out; 
+
+  }
+
+  .fitbit1:hover{
+    transform: scale(1.2); 
+  }
+ 
+  /*pasteria*/
+  #pasteria{
+    font-size: 50px;   
+    margin-top: -29px;
+    font-family: 'Amatic SC', cursive;
+    transition: 0.3s;
+    transition: all .3s ease-in-out; 
+  }
+
+#pasteria:hover{
+    color: rgb(255, 234, 0);
+    text-shadow: 0 0 5px #ffcc00;
+    transform: scale(1.2); 
+
+}
+
+/*npr*/
+.npr1{
+    width:120px;
+    margin-top: -10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.npr1:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  /*instagram*/ 
+  .insta1{
+      width: 180px;
+      margin-top: -30px;
+      transition: all .7s ease-in-out; 
+  }
+
+  .insta1:hover{
+    z-index:1;
+    transform: scale(1.06);
+    filter:  blur(5px);
+  }
+
+/*facebook*/
+
+#facebook{
+    font-family: Helvetica, sans-serif;
+    margin-right: 20px;
+    height:40px;
+    background-color: transparent;
+    border:none;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+    transition: 0.3s;
+}
+
+#facebook:hover {
+  cursor:pointer;
+  color: white;
+  background-color: #3b5998;
+}
+
+/*the color run*/
+
+#color-run{
+    font-size: 25px;   
+    font-family: 'Amatic SC', cursive;
+    transition: 0.3s;
+    margin-top: -20px;
+    color:red;
+}
+
+@keyframes bg {
+    0% {
+        background-size:    0 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    25% {
+        background-size:    100% 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    50% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            0 3px,
+                            3px 0;
+    }
+    75% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 0;
+    }
+    100% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+    }
+}
+
+#color-run {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #ff3535 100%, #ff3535 100%),
+                        linear-gradient(to bottom, #62ff43 100%, #62ff43 100%),
+                        linear-gradient(to right, #2c33ff 100%, #2c33ff 100%),
+                        linear-gradient(to bottom, #ffe946 100%, #ffe946 100%);
+    background-size:    100% 3px,
+                        3px 100%,
+                        100% 3px,
+                        3px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+#color-run:hover {
+    animation-play-state: running;
+    background-color:#ffe946 100%;
+}
+
+/*michael-kors*/
+
+#michael-kors{
+    font-family: roboto;
+    font-weight: 700;
+    padding-top: 5px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    height: 50px;
+    background-color: black;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#michael-kors:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #ffffff;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-out;
+  }
+
+  #michael-kors:hover {
+    color: rgb(0, 0, 0);
+    transform: skew(-10deg);
+    border: 2px solid #000000;
+  }
+
+  #michael-kors:hover:before {
+    transform: scaleX(1);
+  }
+
+  /*hsn*/
+  
+  .hsn1{
+    display: inline-block;
+    width:   100px;
+    height:  100px;
+    margin-top: -29px;
+    transition: transform 1s ease-in-out;
+  }
+
+  .hsn1:hover{
+    transform: rotate(1550deg);
+  }
+
+  /*the new yorker*/
+
+  .new-yorker1{
+    width:   200px;
+    margin-top:-30px;
+    transition: transform .5s ease-in-out;
+
+  }
+
+  .new-yorker1:hover{
+    transform: rotateY(180deg);
+  }
+
+  /*missouri botanical gardens*/
+  #botanical-garden{
+    color:rgb(66, 108, 47);
+    transition:0.3s;
+    background-color: white;
+    border-radius: 100px;
+    height:100px;
+    width: 100px;
+    border: 2px solid rgb(66, 108, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+  }
+
+  #botanical-garden:hover{
+    font-style: italic;
+    color:white;
+    background-color:rgb(66, 108, 47);
+
+  }
+
+
+
+.nbc1{
+    border-radius: 15px;
+    width: 100px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size:25px;
+    transition: 0.3s;
+    margin-top:-30px;
+
+}
+
+.nbc1:hover{
+    animation: bounce 1s;}
