@@ -1,0 +1,336 @@
+body{
+    background-color: #D9FC74;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.secondarypages{
+    overflow:scroll;/* Hide scrollbars */
+
+}
+
+.bigpink{
+    position: absolute;
+   width: 700px;
+    top: 0px;
+    right: -30px;
+}
+
+.yellow{
+    position: absolute;
+    left: 0px;
+    top: 390px;
+}
+
+.frankie{
+    position: absolute;
+    height: 900px;
+    top: 120px;
+    right: -30px;
+}
+
+.about{
+    position:relative;
+    width: 25%;
+    top:100px;
+}
+
+h1,#home{
+    position:relative;
+    width: 90%;
+    height: 124px;
+    left: 70px;
+    top: -40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 120px;
+    /* or 53% */
+
+    letter-spacing: -0.085em;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+h1:hover {
+    transform: skew(-10deg);
+    color: #4EAB6D;
+}
+
+#secondaryhead{
+    position: absolute;
+    width: 90%;
+    height: 124px;
+    left: 70px;
+    top: 130px;
+
+    line-height: 120px;
+}
+
+#home{
+    position: absolute;
+    width: 678px;
+    height: 124px;
+    left: 70px;
+    top: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 80px;
+    /* or 53% */
+
+    letter-spacing: -0.085em;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+#home:hover{
+    transform: skew(-10deg);
+    color: #4EAB6D;
+}
+
+a:hover {
+    transform: skew(-10deg);
+    color: #4EAB6D;
+}
+
+h2,a{
+    position: absolute;
+    width: 208px;
+    height: 70px;
+    left: 90px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.05em;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+#earlylife{
+    top: 750px;
+}
+
+#career{
+    top: 830px;
+}
+
+#discography{
+    top: 910px;
+}
+
+p{
+    position: absolute;
+    width: 655px;
+    height: 276px;
+    left: 78px;
+    top: 180px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.records{
+    display: inline-block;
+    transition: transform 5s ease-in-out;
+    margin-left: 310px;
+  }
+
+.records:hover{
+    transform: rotate(1800deg);
+  }
+
+#one{
+    position: absolute;
+    width: 157.32px;
+    height: 157.32px;
+    left: 21%;
+    top: 325px;
+}
+
+#two{
+    position:relative;
+    width: 157.32px;
+    height: 157.32px;
+    left: 32%;
+    top: -300px;
+}
+
+#three{
+    position: absolute;
+    width: 157.32px;
+    height: 157.32px;
+    left: 43%;
+    top: 325px;
+}
+
+#four{
+    position: absolute;
+    width: 157.38px;
+    height: 157.38px;
+    left: 21%;
+    top: 521.31px;
+}
+
+#five{
+    position: absolute;
+    width: 157.38px;
+    height: 157.38px;
+    left: 32%;
+    top: 521.31px;
+}
+
+#six{
+    position: absolute;
+    width: 157.38px;
+    height: 157.38px;
+    left: 43%;
+    top: 521.31px;
+}
+
+#seven{
+    position:fixed;
+    width: 157.38px;
+    height: 157.38px;
+    left: 21%;
+    top: 717.62px;
+}
+
+#eight{
+    position: absolute;
+    width: 157.38px;
+    height: 157.38px;
+    left: 32%;
+    top: 717.62px;
+}
+
+#nine{
+    position: absolute;
+    width: 157.38px;
+    height: 157.38px;
+    left: 43%;
+    top: 717.62px;
+}
+
+.smallpink{
+    position:absolute;
+    left: 55px;
+    width: 90px;
+}
+
+#smallpink1{
+    top: 745px;
+}
+
+#smallpink2{
+    top: 830px;
+}
+
+#smallpink3{
+    top: 915px;
+}
+
+h3{
+    position: absolute;
+
+    margin-top: 100px;
+    margin-left: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+
+    color: #000000;
+    z-index: 1;
+}
+
+h4{
+    position: relative;
+
+    margin-top: 100px;
+    margin-left: 100px;
+    width:50%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #000000;
+    z-index: 1;
+}
+
+
+#oneone{
+    position:relative;
+    top: 200px;
+    width: 40%;
+}
+
+#twotwo{
+    top:375px;
+}
+
+#threethree{
+    top: 525px;
+}
+
+#fourfour{
+    top: 675px;
+}
+
+#careerone{
+    top: 215px;
+    width:1100px;
+font-style: normal;
+line-height: 18px;
+}
+
+#careertwo{
+    top:350px;
+    width:1100px;
+    font-style: normal;
+    line-height: 18px;
+
+}
+
+#careerthree{
+    top: 500px;
+    width:1100px;
+    font-style: normal;
+    line-height: 18px;
+
+}
+
+#careerfour{
+    top: 650px;
+    width:1100px;
+    font-style: normal;
+    line-height: 18px;
+
+}
+
+.careerp{
+    position: relative;
+    width:50%;
+
+    margin-top:-50px;
+    margin-left: 60px;
+    z-index: 1;
+
+}
